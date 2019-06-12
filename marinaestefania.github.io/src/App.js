@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="container my-container">
+    <div class="row my-row">
+        <div class="col-md-4 col-sm-6 my-col">
+            Row 1 Col 1
+        </div>
+        <div class="col-md-8 col-sm-6 my-col">
+            Row 1 Col 2
+        </div>
     </div>
+    <div class="row justify-content-between align-items-stretch my-row">
+        <div class="col-4 my-col order-md-12">
+            Row 2 Col 1
+        </div>
+        <div class="col-4 offset-md-2 my-col align-self-start order-md-2">
+            Row 2 Col 2
+        </div>
+    </div>
+</div>
   );
 }
 
