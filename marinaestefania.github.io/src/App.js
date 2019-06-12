@@ -20,20 +20,19 @@ class App extends Component {
             <CoverPage></CoverPage>
           </div>
         </div>
-
         <div class="row justify-content-between align-items-stretch my-row">
-          <div class="col-sm-12 my-col">
+          <div class="col-md-2 my-col">
             <Sidebar></Sidebar>
           </div>
-          <div class="col-sm-12 my-col">
+          <div class="col-md-8 my-col">
             <Container></Container>
           </div>
-          <div class="col-sm-12 my-col">
+          <div class="col-md-2 my-col">
             <Sidebar></Sidebar>
           </div>
         </div>
         <div class="row my-row contact">
-          <div class="col-sm-12 my-col ">
+          <div class="col-md-12 col-sm-12 my-col ">
           <Contact></Contact>
           </div>
         </div>
