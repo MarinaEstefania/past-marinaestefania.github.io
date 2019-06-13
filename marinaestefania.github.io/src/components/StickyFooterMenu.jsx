@@ -1,22 +1,19 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import '../style/navbar.css'
+import '../style/stickyFooterMenu.css'
 
 
-class Navbar extends Component{
+class StickyFooterMenu extends Component{
     render(){
         return(
-            <div className="navbar d-none col-md-12 col-sm-12 d-sm-block">
-                <div className="justify-content-center my-flex" >
+            <div class="navbarF">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
-
-                </div>
             </div>
         )
     }
 }
 
-export default Navbar;
+export default StickyFooterMenu;

@@ -1,18 +1,39 @@
-    .my-container {
+/* .my-container {
   border: 5px solid green;
+  overflow: auto
 }
 .my-row {
   border: 3px solid red;
+  overflow: auto
 
 }
 .my-col {
   border: 3px dotted blue;
-}    
+  overflow: auto
+}     
+ */
+.my-flex{
+  display: flex;
+  justify-content: center;
+}
 
+
+ .col-lg-2{
+  padding: 0;
+}
+
+ .col-sm-12{
+  padding: 0;
+} 
+
+ 
 .main {
  /*  padding: 16px;
   margin-top: 40px; */
-  background-color: whitesmoke;
+  background-color: white;
 /*   height: 1500px; */
 }
 
+.my-row-Project{
+  background-color: #f1f3f5
+}

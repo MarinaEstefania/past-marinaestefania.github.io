@@ -1,6 +1,6 @@
 .coverPage{
-    width: 100vw;
-}
-img{
-/*     width: -webkit-fill-available;   */
+  height: 90vh;
+background-image: url("../img/lets.png");
+background-repeat: no-repeat;
+background-size: cover;
 }
