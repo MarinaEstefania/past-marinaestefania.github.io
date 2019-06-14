@@ -1,19 +1,47 @@
 import React, {Component} from 'react';
 import '../style/coverPage.css';
-import coverimage from '../img/lets.png'
 
 class CoverPage extends Component{
     render(){
        
         return(
-            <div className="CoverPage" >
-              <a name="home"> <div className="CoverPage">
-               
-                   
-              {/*      <img src={coverimage} alt="marina estefania cover" /></div>  */}
-              
-              </div></a> 
-              </div>
+            <div>
+              <a name="home"> 
+                <div className="row my-cover-row my-row">
+
+
+
+                <div class="col-sm-12 col-md-6 my-col my-flex ">
+                  <div className="row col-md-8 my-row my-row-cover-letters">
+
+                     <p class="my-col-quote"> "The best preparation for tomorrow is doing your best today"</p>
+                    <p class="my-col-marina"> MARINA ESTEFANIA</p>
+                    <p class="my-col-front"> FRONT-END DEVELOPER</p> 
+               {/*      <div class="my-col my-col-quote justify-content-between">
+                      "The best preparation for tomorrow is doing your best today"
+                    </div>
+                    <div class="my-col my-col-marina justify-content-between">
+                      MARINA ESTEFANIA
+                    </div>
+                    <div class="my-col my-col-front justify-content-between">
+                      Front-End Developer
+                    </div> */}
+                 
+                  </div>
+
+                  
+                </div>
+
+
+
+
+
+                <div class="col-sm-12 col-md-6 my-col my-img-cover">
+                </div> 
+
+                </div>
+              </a> 
+            </div>
         )
     }
 }

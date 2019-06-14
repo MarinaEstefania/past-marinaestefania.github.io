@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-     background-color: white; 
+    background-color: #eff2f5; 
     position: fixed;
     top: 0;
     z-index: 100 
@@ -48,3 +48,7 @@
     opacity: 1;
     transform: translateY(0px)
   } 
+
+  .my-navbar-padding{
+padding: 0
+  }

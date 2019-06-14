@@ -1,4 +1,4 @@
-/* .my-container {
+/*    .my-container {
   border: 5px solid green;
   overflow: auto
 }
@@ -10,30 +10,44 @@
 .my-col {
   border: 3px dotted blue;
   overflow: auto
-}     
- */
+}    */ 
+ 
 .my-flex{
   display: flex;
+  align-items: center;
   justify-content: center;
+  
 }
 
 
- .col-lg-2{
+/*  .col-lg-2{
   padding: 0;
 }
 
  .col-sm-12{
   padding: 0;
-} 
+}  */
 
  
 .main {
- /*  padding: 16px;
-  margin-top: 40px; */
+  padding: 0px;
+ /* margin-top: 40px; */
   background-color: white;
-/*   height: 1500px; */
 }
-
-.my-row-Project{
-  background-color: #f1f3f5
+.my-row-about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+ padding-bottom: 5%; 
+  
+}
+.my-row-project{
+  background-color: #f1f3f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%; 
+   
 }

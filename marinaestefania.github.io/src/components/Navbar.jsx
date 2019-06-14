@@ -6,7 +6,7 @@ import '../style/navbar.css'
 class Navbar extends Component{
     render(){
         return(
-            <div className="navbar d-none col-md-12 col-sm-12 d-sm-block">
+            <div className="navbar  d-none col-md-12 col-sm-12 d-sm-block my-navbar-padding">
                 <div className="justify-content-center my-flex" >
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
