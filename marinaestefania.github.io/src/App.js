@@ -27,7 +27,7 @@ class App extends Component {
         </div>
         
         <div class="row  align-items-stretch my-row my-row-project">
-          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10  my-col ">
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-9  my-col ">
             <Project></Project>
           </div>
         </div>

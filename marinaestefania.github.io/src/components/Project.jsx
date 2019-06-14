@@ -7,7 +7,7 @@ class Project extends Component {
         return (
             <section className="my-project-row">
                 <div>
-                    <a name="projects"><h4>Project</h4></a>
+                    <a name="projects"><h4>Recent Projects</h4></a>
                 </div>
                 <div class="grid">
 					<figure class="effect-julia">
@@ -21,7 +21,7 @@ Mediante la información que arroja la interfaz, el usuario puede tomar decision
 								<p>She loves the smell of the ocean</p>
 								<p>And dives into the morning light</p>
 							</div>
-							<a href="#">View more</a>
+							<a href="https://marinaestefania.github.io/GDL002-data-lovers/src/">View more</a>
 						</figcaption>			
 					</figure>
 					<figure class="effect-julia">
@@ -29,11 +29,59 @@ Mediante la información que arroja la interfaz, el usuario puede tomar decision
 						<figcaption>
 							<h2>Burger <span>Queen</span></h2>
 							<div>
-								<p>Julia dances in the deep dark</p>
+								<p>Un pequeño restaurante de hamburguesas, que está creciendo, necesita una interfaz en la que puedan tomar pedidos usando una tablet, y enviarlos a la cocina para que se preparen ordenada y eficientemente.</p>
 								<p>She loves the smell of the ocean</p>
-								<p>And dives into the morning light</p>
+						
 							</div>
-							<a href="#">View more</a>
+							<a href="https://marinaestefania.github.io/gdl002-burger-queen/#/">View more</a>
+						</figcaption>			
+					</figure>
+                    <figure class="effect-julia">
+						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img22"/>
+						<figcaption>
+							<h2>Burger <span>Queen</span></h2>
+							<div>
+								<p>Un pequeño restaurante de hamburguesas, e.</p>
+								<p>She loves the smell of the ocean</p>
+						
+							</div>
+							<a href="https://marinaestefania.github.io/gdl002-burger-queen/#/">View more</a>
+						</figcaption>			
+					</figure>
+                    <figure class="effect-julia">
+						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img22"/>
+						<figcaption>
+							<h2>Burger <span>Queen</span></h2>
+							<div>
+								<p>Un pequeño restaurante de hamburguesas, e.</p>
+								<p>She loves the smell of the ocean</p>
+						
+							</div>
+							<a href="https://marinaestefania.github.io/gdl002-burger-queen/#/">View more</a>
+						</figcaption>			
+					</figure>
+                    <figure class="effect-julia">
+						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img22"/>
+						<figcaption>
+							<h2>Burger <span>Queen</span></h2>
+							<div>
+								<p>Un pequeño restaurante de hamburguesas, e.</p>
+								<p>She loves the smell of the ocean</p>
+						
+							</div>
+							<a href="https://marinaestefania.github.io/gdl002-burger-queen/#/">View more</a>
+						</figcaption>			
+					</figure>
+                    <figure class="effect-julia">
+						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img22"/>
+						<figcaption>
+							<h2>Burger <span>Queen</span></h2>
+							<div>
+								<p>Un pequeño restaurante de hamburguesas, e.</p>
+								<p>She loves the smell of the ocean</p>
+						
+							</div>
+							<a href="https://marinaestefania.github.io/gdl002-burger-queen/#/">View more</a>
 						</figcaption>			
 					</figure>
 				</div>

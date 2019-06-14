@@ -198,7 +198,22 @@ body #cda-remove {
 }
 
 /* Common style */
-.grid figure {
+/* .grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 200x;
+	max-width: 300px;
+	max-height: 360px;
+	width: 31%;                      
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+} */
+
+ .grid figure {
 	position: relative;
 	float: left;
 	overflow: hidden;
@@ -206,12 +221,12 @@ body #cda-remove {
 	min-width: 320px;
 	max-width: 480px;
 	max-height: 360px;
-	width: 48%;
+	width: 48%;                        
 	height: auto;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
-}
+} 
 
 .grid figure img {
 	position: relative;
@@ -247,7 +262,7 @@ body #cda-remove {
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
 .grid figure figcaption > a {
-	z-index: 1000;
+	
 	text-indent: 200%;
 	white-space: nowrap;
 	font-size: 0;
@@ -312,8 +327,8 @@ figure.effect-julia p {
 	font-size: 75%;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-360px,0,0);
-	transform: translate3d(-360px,0,0);
+	-webkit-transform: translate3d(-450px,0,0);
+	transform: translate3d(-450px,0,0);
 }
 
 figure.effect-julia p:first-child {
