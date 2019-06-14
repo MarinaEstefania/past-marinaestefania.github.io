@@ -35,6 +35,7 @@
   background-color: white;
 }
 .my-row-about{
+  
   display: flex;
   align-items: center;
   justify-content: center;

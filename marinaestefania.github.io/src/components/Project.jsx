@@ -5,49 +5,38 @@ import aboutImage from '../img/about.jpg'
 class Project extends Component {
     render() {
         return (
-            <section>
+            <section className="my-project-row">
                 <div>
-                    <a name="contact"><h4>Project</h4></a>
+                    <a name="projects"><h4>Project</h4></a>
                 </div>
+                <div class="grid">
+					<figure class="effect-julia">
+						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/21.jpg" alt="img21"/>
+						<figcaption>
+							<h2>Poke <span>Goal</span></h2>
+							<div>
+								<p>PokeGoal es una Web App dirigida a jugadores de Pokemon GO interesados en mejorar su nivel competitivo.
 
-                <div className="responsive">
-                    <div className="gallery">
-                        <a target="_blank" href="img_5terre.jpg">
-                            <img src={aboutImage} alt="Cinque Terre" width="600" height="400"/>
-                        </a>
-                            <div className="desc">Add a description of the image here</div>
-  </div>
-                    </div>
-
-
-                    <div className="responsive">
-                        <div className="gallery">
-                            <a target="_blank" href="img_forest.jpg">
-                                <img src={aboutImage}  alt="Forest" width="600" height="400"/>
-    </a>
-                                <div className="desc">Add a description of the image here</div>
-  </div>
-                        </div>
-
-                        <div className="responsive">
-                            <div className="gallery">
-                                <a target="_blank" href="img_lights.jpg">
-                                    <img src={aboutImage}  alt="Northern Lights" width="600" height="400"/>
-    </a>
-                                    <div className="desc">Add a description of the image here</div>
-  </div>
-                            </div>
-
-                            <div className="responsive">
-                                <div className="gallery">
-                                    <a target="_blank" href="img_mountains.jpg">
-                                        <img src={aboutImage}  alt="Mountains" width="600" height="400"/>
-    </a>
-                                        <div className="desc">Add a description of the image here</div>
-  </div>
-                                </div>
-
-                                <div className="clearfix"></div>
+Mediante la información que arroja la interfaz, el usuario puede tomar decisiones sobre como desea avanzar en el juego, ya sea completando misiones, evolucionando a sus pokemon o atrapando a uno en específico, por mencionar algunos ejemplos.</p>
+								<p>She loves the smell of the ocean</p>
+								<p>And dives into the morning light</p>
+							</div>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-julia">
+						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img22"/>
+						<figcaption>
+							<h2>Burger <span>Queen</span></h2>
+							<div>
+								<p>Julia dances in the deep dark</p>
+								<p>She loves the smell of the ocean</p>
+								<p>And dives into the morning light</p>
+							</div>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
 
             </section>
 
