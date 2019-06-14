@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #eff2f5; 
+    background-color: #f1f3f5;/*  #aa9a9d; */
     position: fixed;
     top: 0;
     z-index: 1000; 
@@ -10,7 +10,7 @@
     position: relative;
     float: left;
     display: block;
-    color: #383333;
+    color: #020202;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;

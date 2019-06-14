@@ -2,16 +2,28 @@
 .clearfix:before, .clearfix:after { display: table; content: ''; }
 .clearfix:after { clear: both; }
 
-/* .my-project-row {
-	background: #2f3238;
-	color: #fff;
+.my-project-row {
 	font-weight: 400;
 	font-size: 1em;
-	font-family: 'Raleway', Arial, sans-serif;
-} */
+  /*   font-family: 'Raleway', Arial, sans-serif; */
+    font-family: 'Playfair Display', serif; 
+} 
+.img{
+    width: max-content;
+    height:max-content;
+}
+.div-icon-redes-projects{
+    margin-top: 1rem;
+}
+.icon-redes-projects{
+    padding-right: 1rem;
+    color: rgb(36, 36, 36);
+}
 
-
-
+.icon-redes-projects:hover{
+   
+    color: rgb(235, 188, 228);
+}
 section {
 	padding: 1em;
 	text-align: center;
@@ -72,7 +84,7 @@ section {
 	display: inline-block;
 	margin: 0 5px;
 	padding: 1em 1.5em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-weight: bold;
 }
 
@@ -80,13 +92,13 @@ section {
 .codrops-demos a:focus,
 .codrops-demos a.current-demo {
 	background: #3c414a;
-	color: #fff;
+	color: rgb(202, 25, 25);
 }
 
 /* To Navigation Style */
 .codrops-top {
 	width: 100%;
-	text-transform: uppercase;
+/* 	text-transform: uppercase; */
 	font-weight: 800;
 	font-size: 0.69em;
 	line-height: 2.2;
@@ -188,6 +200,7 @@ body #cda-remove {
 	}
 }
 .grid {
+    
 	position: relative;
 	clear: both;
 	margin: 0 auto;
@@ -225,7 +238,6 @@ body #cda-remove {
 	height: auto;
 	background: #3085a3;
 	text-align: center;
-	cursor: pointer;
 } 
 
 .grid figure img {
@@ -237,9 +249,10 @@ body #cda-remove {
 }
 
 .grid figure figcaption {
+    font-family: 'Raleway', sans-serif;
 	padding: 2em;
-	color: #fff;
-	text-transform: uppercase;
+	color: rgb(14, 12, 12); /* COLOR DE LETRA TODO EL CONTENIDO TARJETA */
+/* 	text-transform: uppercase; */
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -288,87 +301,99 @@ body #cda-remove {
 	font-size: 68.5%;
 }
 
-/* Individual effects */
 
-/*---------------*/
-/***** Julia *****/
-/*---------------*/
-
-figure.effect-julia {
-	background: #2f3238;
+figure.effect-duke {
+	background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 100%);
+	background: linear-gradient(-45deg, #f5efd0 0%,#ffffff 100%);
 }
 
-figure.effect-julia img {
-	max-width: none;
-	height: 400px;
-	-webkit-transition: opacity 1s, -webkit-transform 1s;
-	transition: opacity 1s, transform 1s;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-figure.effect-julia figcaption {
-	text-align: left;
-}
-
-figure.effect-julia h2 {
-	position: relative;
-	padding: 0.5em 0;
-}
-
-figure.effect-julia p {
-	display: inline-block;
-	margin: 0 0 0.25em;
-	padding: 0.4em 1em;
-	background: rgba(255,255,255,0.9);
-	color: #2f3238;
-	text-transform: none;
-	font-weight: 500;
-	font-size: 75%;
+figure.effect-duke img,
+figure.effect-duke p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-450px,0,0);
-	transform: translate3d(-450px,0,0);
 }
 
-figure.effect-julia p:first-child {
-	-webkit-transition-delay: 0.15s;
-	transition-delay: 0.15s;
+figure.effect-duke:hover img {
+	opacity: .55;    /************Opacidad del color rosa *********/
+	-webkit-transform: scale3d(2,2,1);
+	transform: scale3d(2,2,1);
 }
 
-figure.effect-julia p:nth-of-type(2) {
-	-webkit-transition-delay: 0.1s;
-	transition-delay: 0.1s;
+figure.effect-duke h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: scale3d(0.8,0.8,1);
+	transform: scale3d(0.8,0.8,1);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
 }
 
-figure.effect-julia p:nth-of-type(3) {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
+figure.effect-duke p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 20px;
+	padding: 30px;
+	/* border: 2px solid #fff; */
+	text-transform: none;
+	font-size: 90%;
+	opacity: 0;
+	-webkit-transform: scale3d(0.8,0.8,1);
+	transform: scale3d(0.8,0.8,1);
+	-webkit-transform-origin: 50% -100%;
+	transform-origin: 50% -100%;
 }
 
-figure.effect-julia:hover p:first-child {
-	-webkit-transition-delay: 0s;
-	transition-delay: 0s;
-}
-
-figure.effect-julia:hover p:nth-of-type(2) {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
-}
-
-figure.effect-julia:hover p:nth-of-type(3) {
-	-webkit-transition-delay: 0.1s;
-	transition-delay: 0.1s;
-}
-
-figure.effect-julia:hover img {
-	opacity: 0.4;
-	-webkit-transform: scale3d(1.1,1.1,1);
-	transform: scale3d(1.1,1.1,1);
-}
-
-figure.effect-julia:hover p {
+figure.effect-duke:hover h2,
+figure.effect-duke:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+/* Media queries */
+
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+    }
+
+    figure.effect-duke p {
+     
+        margin-bottom: 0;    /*  AQUI SE MODIFICA el margen PARRAFO TARJETA*/
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding: 0px 20px 15px 20px;
+        font-size: .66em;    /* AQUI SE MODIFICA LETRA PARRAFO TARJETA"*/
+     
+    }
+    .icon-redes-projects{
+        padding-right: 1rem;
+        color: white;
+    }
+    .div-icon-redes-projects{
+        margin-top:.6rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../style/project.css';
-import aboutImage from '../img/about.jpg'
+import imagetry from '../img/screen (13).jpg'
 
 class Project extends Component {
     render() {
@@ -10,80 +10,31 @@ class Project extends Component {
                     <a name="projects"><h4>Recent Projects</h4></a>
                 </div>
                 <div class="grid">
-					<figure class="effect-julia">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/21.jpg" alt="img21"/>
+                <figure class="effect-duke">
+						<img src={imagetry} alt="img27"/>
 						<figcaption>
-							<h2>Poke <span>Goal</span></h2>
-							<div>
-								<p>PokeGoal es una Web App dirigida a jugadores de Pokemon GO interesados en mejorar su nivel competitivo.
-
-Mediante la información que arroja la interfaz, el usuario puede tomar decisiones sobre como desea avanzar en el juego, ya sea completando misiones, evolucionando a sus pokemon o atrapando a uno en específico, por mencionar algunos ejemplos.</p>
-								<p>She loves the smell of the ocean</p>
-								<p>And dives into the morning light</p>
-							</div>
-							<a href="https://marinaestefania.github.io/GDL002-data-lovers/src/">View more</a>
+							<h2>Poke <span>goal</span></h2>
+							<p>Mediante lal usuario puede tomar decisiones sobre como desea avanzar en el juego, ya sea completando misiones, evolucionando a sus pokemon o atrapando a uno en específico, por mencionar algunos ejemplos.
+                                <div className="div-icon-redes-projects">
+                                    <a className="icon-redes-projects" target="_blank" href="https://www.myGITHUB.com/"><i class="fab fa-github fa-2x"></i></a>
+                                    <a className="icon-redes-projects" target="_blank" href="https://www.myPROYECTO.com/"><i class="fas fa-link fa-2x"></i></a>  
+                                </div>
+                            </p>
 						</figcaption>			
 					</figure>
-					<figure class="effect-julia">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img22"/>
+                    <figure class="effect-duke">
+						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/27.jpg" alt="img27"/>
 						<figcaption>
-							<h2>Burger <span>Queen</span></h2>
-							<div>
-								<p>Un pequeño restaurante de hamburguesas, que está creciendo, necesita una interfaz en la que puedan tomar pedidos usando una tablet, y enviarlos a la cocina para que se preparen ordenada y eficientemente.</p>
-								<p>She loves the smell of the ocean</p>
-						
-							</div>
-							<a href="https://marinaestefania.github.io/gdl002-burger-queen/#/">View more</a>
+							<h2>Poke <span>goal</span></h2>
+							<p>Mediante lal usuario puede tomar decisiones sobre como desea avanzar en el juego, ya sea completando misiones, evolucionando a sus pokemon o atrapando a uno en específico, por mencionar algunos ejemplos.
+                                <div className="div-icon-redes-projects">
+                                    <a className="icon-redes-projects" target="_blank" href="https://www.myGITHUB.com/"><i class="fab fa-github fa-2x "></i></a>
+                                    <a className="icon-redes-projects" target="_blank" href="https://www.myPROYECTO.com/"><i class="fas fa-link fa-2x"></i></a>  
+                                </div>
+                            </p>
 						</figcaption>			
 					</figure>
-                    <figure class="effect-julia">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img22"/>
-						<figcaption>
-							<h2>Burger <span>Queen</span></h2>
-							<div>
-								<p>Un pequeño restaurante de hamburguesas, e.</p>
-								<p>She loves the smell of the ocean</p>
-						
-							</div>
-							<a href="https://marinaestefania.github.io/gdl002-burger-queen/#/">View more</a>
-						</figcaption>			
-					</figure>
-                    <figure class="effect-julia">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img22"/>
-						<figcaption>
-							<h2>Burger <span>Queen</span></h2>
-							<div>
-								<p>Un pequeño restaurante de hamburguesas, e.</p>
-								<p>She loves the smell of the ocean</p>
-						
-							</div>
-							<a href="https://marinaestefania.github.io/gdl002-burger-queen/#/">View more</a>
-						</figcaption>			
-					</figure>
-                    <figure class="effect-julia">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img22"/>
-						<figcaption>
-							<h2>Burger <span>Queen</span></h2>
-							<div>
-								<p>Un pequeño restaurante de hamburguesas, e.</p>
-								<p>She loves the smell of the ocean</p>
-						
-							</div>
-							<a href="https://marinaestefania.github.io/gdl002-burger-queen/#/">View more</a>
-						</figcaption>			
-					</figure>
-                    <figure class="effect-julia">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img22"/>
-						<figcaption>
-							<h2>Burger <span>Queen</span></h2>
-							<div>
-								<p>Un pequeño restaurante de hamburguesas, e.</p>
-								<p>She loves the smell of the ocean</p>
-						
-							</div>
-							<a href="https://marinaestefania.github.io/gdl002-burger-queen/#/">View more</a>
-						</figcaption>			
-					</figure>
+					
 				</div>
 
             </section>
