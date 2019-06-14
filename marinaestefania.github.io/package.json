@@ -3,14 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.19.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
   "homepage": "https://marinaestefania.github.io",
   "scripts": {
     "predeploy": "npm run build",
+<<<<<<< HEAD
    "deploy": "gh-pages -b master -d build",
+=======
+    "deploy": "gh-pages -b master -d build",
+>>>>>>> b3386d3e8fe3f5b9d98d5fea8c92b2aeaaa30b65
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
