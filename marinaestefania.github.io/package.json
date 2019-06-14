@@ -12,11 +12,7 @@
   "homepage": "https://marinaestefania.github.io",
   "scripts": {
     "predeploy": "npm run build",
-<<<<<<< HEAD
-   "deploy": "gh-pages -b master -d build",
-=======
     "deploy": "gh-pages -b master -d build",
->>>>>>> b3386d3e8fe3f5b9d98d5fea8c92b2aeaaa30b65
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
