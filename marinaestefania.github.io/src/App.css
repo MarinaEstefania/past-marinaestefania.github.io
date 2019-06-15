@@ -1,4 +1,4 @@
-/*    .my-container {
+     .my-container {
   border: 5px solid green;
   overflow: auto
 }
@@ -10,7 +10,7 @@
 .my-col {
   border: 3px dotted blue;
   overflow: auto
-}    */ 
+}   
  
 .my-flex{
   display: flex;
@@ -34,6 +34,7 @@
  /* margin-top: 40px; */
   background-color: white;
 }
+
 .my-row-about{
   
   display: flex;
