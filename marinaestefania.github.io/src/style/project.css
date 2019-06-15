@@ -303,8 +303,8 @@ body #cda-remove {
 
 
 figure.effect-duke {
-	background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 100%);
-	background: linear-gradient(-45deg, #f5efd0 0%,#ffffff 100%);
+	background: -webkit-linear-gradient(-45deg, #f1f3f5 0%,#f1f3f5 100%); 
+	background: linear-gradient(-45deg, #f1f3f5 0%,#f1f3f5 100%);
 }
 
 figure.effect-duke img,
@@ -314,7 +314,7 @@ figure.effect-duke p {
 }
 
 figure.effect-duke:hover img {
-	opacity: .55;    /************Opacidad del color rosa *********/
+	opacity: 0;    /************Opacidad del color rosa *********/
 	-webkit-transform: scale3d(2,2,1);
 	transform: scale3d(2,2,1);
 }

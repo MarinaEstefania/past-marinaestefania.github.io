@@ -9,10 +9,9 @@ class Navbar extends Component{
             <div className="navbar  d-none col-md-12 col-sm-12 d-sm-block my-navbar-padding">
                 <div className="justify-content-center my-flex" >
                 <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-
+                <a href="#about">About Me</a>
+                <a href="#projects">Recent Work</a>
+                <a href="#contact">Make Contact</a>
                 </div>
             </div>
         )
