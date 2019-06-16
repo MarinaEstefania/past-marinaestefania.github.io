@@ -1,0 +1,30 @@
+
+.my-div-pre-title-contact{
+    color:rgb(204, 175, 69);
+    font-size: .7rem;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+      letter-spacing: .3rem;
+      font-weight: bold;
+      margin-bottom: .01rem!important;
+  }
+
+.my-div-title-contact{
+    color: beige;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+        letter-spacing: .1rem;
+        font-weight: bold;
+    }
+
+    .icon-redes-contact{
+        padding: 2rem;
+      
+        color:#8d8d8a;
+      }
+      
+      .icon-redes-contact:hover{
+        color: rgb(235, 188, 228);
+      } 
+     

@@ -27,13 +27,13 @@ class App extends Component {
         </div>
         
         <div class="row  align-items-stretch my-row my-row-project">
-          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-11  my-col ">
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8  my-col ">
             <Project></Project>
           </div>
         </div>
     
-        <div class="row my-row contact">
-          <div class="col-md-12 col-sm-12 my-col ">
+        <div class="row my-row my-row-contact">
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8  my-col ">
           <Contact></Contact>
           </div>
         </div>

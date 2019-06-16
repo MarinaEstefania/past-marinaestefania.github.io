@@ -11,7 +11,7 @@ class Navbar extends Component{
                 <a href="#home">Home</a>
                 <a href="#about">About Me</a>
                 <a href="#projects">Recent Work</a>
-                <a href="#contact">Make Contact</a>
+                <a href="#contact">Contact</a>
                 </div>
             </div>
         )

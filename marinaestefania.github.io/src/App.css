@@ -1,4 +1,4 @@
-     .my-container {
+/* .my-container {
   border: 5px solid green;
   overflow: auto
 }
@@ -10,8 +10,8 @@
 .my-col {
   border: 3px dotted blue;
   overflow: auto
-}   
- 
+}     
+  */
 .my-flex{
   display: flex;
   align-items: center;
@@ -32,7 +32,7 @@
 .main {
   padding: 0px;
  /* margin-top: 40px; */
-  background-color: white;
+  background-color:#f1f3f5;
 }
 
 .my-row-about{
@@ -45,7 +45,7 @@
   
 }
 .my-row-project{
-  background-color: #f1f3f5;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,3 +53,17 @@
   padding-bottom: 5%; 
    
 }
+.my-row-contact{
+  /*background-image: url("../img/screen (19).jpg");
+  background-blend-mode: screen; 
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  background-color: #333;
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1vw;
+  padding-top: 4vw;  
+  }

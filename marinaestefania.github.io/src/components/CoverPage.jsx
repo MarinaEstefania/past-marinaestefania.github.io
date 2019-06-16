@@ -11,25 +11,21 @@ class CoverPage extends Component{
 
 
 
-                <div class="col-sm-12 col-md-6 my-col my-flex ">
+                <div class="col-sm-12 col-md-6 my-col my-flex my-row-letters ">
                   <div className="row col-md-8 my-row my-row-cover-letters">
-
                      <p class="my-col-quote"> "The best preparation for tomorrow is doing your best today"</p>
                     <p class="my-col-marina"> MARINA ESTEFANIA</p>
-                    <p class="my-col-front"> FRONT-END DEVELOPER</p> 
-               {/*      <div class="my-col my-col-quote justify-content-between">
-                      "The best preparation for tomorrow is doing your best today"
-                    </div>
-                    <div class="my-col my-col-marina justify-content-between">
-                      MARINA ESTEFANIA
-                    </div>
-                    <div class="my-col my-col-front justify-content-between">
-                      Front-End Developer
-                    </div> */}
-                 
-                  </div>
-
+                    <p class="my-col-front"> FRONT-END DEVELOPER</p>          
+                  {/*  <p >
                   
+                      <a className="icon-redes-cover" target="_blank" href="https://www.linkedin.com/in/MarinaEstefania/">
+                        <i class="fab fa-linkedin-in "></i></a>  
+                      <a className="icon-redes-cover" target="_blank" href="https://github.com/MarinaEstefania">
+                        <i class="fab fa-github  "></i></a>                              
+                   
+                   </p> */}
+                   
+                  </div>
                 </div>
 
 

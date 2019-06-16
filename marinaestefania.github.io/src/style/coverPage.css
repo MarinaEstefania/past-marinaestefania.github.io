@@ -1,21 +1,26 @@
-.my-cover-row{
-  height: 90vh;
-  width: 100vw;
 
+.my-cover-row{
+  height: 80vh;
+  width: 100vw;
+  background-color: white;
+  
 }
 
 .my-img-cover{
   background-image: url("../img/screen (5).jpg");
   background-repeat: no-repeat;
-background-size: cover;
+  background-size: cover;
 }
 
 .my-row-cover-letters{
   display: flex;
-align-items: center;
-justify-content: center;
-
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
 }
+
+
 
 .my-col-quote{
   font-family: 'Playfair Display', serif; 
@@ -44,6 +49,20 @@ justify-content: center;
   max-height: fit-content;
   letter-spacing: .4rem;
 }
+
+.my-row-letters {
+  flex-wrap: wrap
+}
+
+ .icon-redes-cover{
+  padding-right: 1rem;
+  margin-top:50%;
+  color:#8d8d8a;
+}
+
+.icon-redes-cover:hover{
+  color: rgb(235, 188, 228);
+} 
 /* 
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif; */
