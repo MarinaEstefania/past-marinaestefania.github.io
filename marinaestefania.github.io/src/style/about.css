@@ -16,7 +16,9 @@
       letter-spacing: .1rem;
       font-weight: bold;
   }
-.my-about-text{
+.my-description-about{
+    padding: 1rem;
+    text-align: center;
     letter-spacing: .1rem;
     font-family: 'Raleway', sans-serif;
 }

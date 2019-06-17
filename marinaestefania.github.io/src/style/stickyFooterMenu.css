@@ -4,6 +4,9 @@
     position: fixed;
     bottom: 0;
     z-index: 1000; 
+    padding-inline-start: inherit;
+    padding-inline-end: inherit;
+    width: -webkit-fill-available;
   }
   
   /* Style the links inside the navigation bar */
@@ -12,11 +15,13 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 9px;
+    padding: 10px;
     text-decoration: none;
     font-size: 17px;
   }
   
+  
+
   /* Change the color of links on hover */
   .navbarF a:hover {
     background-color: #ddd;

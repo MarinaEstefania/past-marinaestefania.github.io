@@ -6,7 +6,7 @@ class CoverPage extends Component{
        
         return(
             <div>
-              <a name="home"> 
+             
                 <div className="row my-cover-row my-row">
 
 
@@ -16,15 +16,14 @@ class CoverPage extends Component{
                      <p class="my-col-quote"> "The best preparation for tomorrow is doing your best today"</p>
                     <p class="my-col-marina"> MARINA ESTEFANIA</p>
                     <p class="my-col-front"> FRONT-END DEVELOPER</p>          
-                  {/*  <p >
                   
+                 {/*    <div className="row col-md-8 my-row my-row-cover-redes">
                       <a className="icon-redes-cover" target="_blank" href="https://www.linkedin.com/in/MarinaEstefania/">
-                        <i class="fab fa-linkedin-in "></i></a>  
+                         <i class="fab fa-linkedin-in "></i></a>  
                       <a className="icon-redes-cover" target="_blank" href="https://github.com/MarinaEstefania">
-                        <i class="fab fa-github  "></i></a>                              
-                   
-                   </p> */}
-                   
+                         <i class="fab fa-github  "></i></a>                              
+                    </div> */}
+                 
                   </div>
                 </div>
 
@@ -36,7 +35,7 @@ class CoverPage extends Component{
                 </div> 
 
                 </div>
-              </a> 
+           
             </div>
         )
     }

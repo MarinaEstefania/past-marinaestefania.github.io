@@ -20,8 +20,6 @@
   
 }
 
-
-
 .my-col-quote{
   font-family: 'Playfair Display', serif; 
   color: #3b3a3b;
@@ -51,12 +49,21 @@
 }
 
 .my-row-letters {
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
-
+.my-row-cover-redes{
+  /* display: flex;
+  
+  align-items: center;
+  justify-content: center; */
+margin: 0px;
+padding: 0px;
+}
  .icon-redes-cover{
-  padding-right: 1rem;
-  margin-top:50%;
+   display: inline-block;
+   text-align: center;
+   padding-right: 1rem;
+   cursor: pointer;
   color:#8d8d8a;
 }
 

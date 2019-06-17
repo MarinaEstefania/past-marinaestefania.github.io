@@ -10,10 +10,10 @@ class Project extends Component {
             <section className="my-project-row">
                 
                 <div className="my-div-pre-title-project ">
-                    <a name="projects"><p>THE SELECTED OF </p></a>
+                   <p>THE SELECTED OF </p>
                 </div>
                 <div className="my-div-title-project ">
-                    <a name="projects"><p>RECENT WORK</p></a>
+                   <p>MY WORK</p>
                 </div>
                 <div class="my-grid-row"> 
 
@@ -27,7 +27,7 @@ class Project extends Component {
                                     <div className="div-icon-redes-projects">
                                         <a className="icon-redes-projects" target="_blank" href="https://infoooo.com/"><i class="fas fa-info-circle fa-2x"></i></a>  
                                         <a className="icon-redes-projects" target="_blank" href="https://red-social-595e4.firebaseapp.com/"><i class="fas fa-link fa-2x"></i></a>  
-                                        <a className="icon-redes-projects" target="_blank" href="https://github.com/YolandaRib-4/GDL002-social-network"><i class="fab fa-github fa-2x"></i></a>
+                                        <a className="icon-redes-projects" target="_blank" href="https://github.com/MarinaEstefania/GDL002-social-network"><i class="fab fa-github fa-2x"></i></a>
                                     </div>
                                 </h2>
                                  
