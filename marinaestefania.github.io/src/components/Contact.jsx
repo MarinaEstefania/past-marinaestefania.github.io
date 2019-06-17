@@ -10,7 +10,12 @@ class Contact extends Component{
           <div className="row my-flex">
                     <div div class="col-sm-12 col-md-8 my-col" >
                    {/*  <p>Have a question or want to work together?</p> */}
-                   <p className="my-description-contact">Whether you would like my services for a project, get extra information on any of my work, ask me about this site or just say hello then I would love to hear from you.</p>
+                   {/* <p className="my-description-contact">Whether you would like my services for a project, get extra information on any of my work, ask me about this site or just say hello then I would love to hear from you.
+                   </p> */}
+                      <p >
+                     Do you have any question?</p>
+                     <p className="my-description-contact">¡Let's make your website set appart from the competition!</p>
+                    
                     <p>
                       <a className="icon-redes-contact fa-2x " target="_blank" href="https://www.linkedin.com/in/MarinaEstefania/">
                         <i class="fab fa-linkedin-in"></i></a>  

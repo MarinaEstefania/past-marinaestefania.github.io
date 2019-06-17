@@ -10,35 +10,39 @@ class About extends Component {
                 <p className="my-div-title-about">ABOUT ME</p>
                 <div class="row my-row my-description-about">
 
-                    <div class="col-sm-12 col-md-8 my-col">
-                        <p >"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                    <div class="col-sm-12 col-md-5 my-col">
+                        <p >
+                           ¡Hello! my name is Marina Estefanía.
+  I have a bachelor degree in Biochemical Engineer, but I've always been interested in the IT area so now I decided become a Front End Developer.
+I like to work on interesting projects with good people and make things work as they should be.
+When I'm not online, I can be found swimming in the pool or watching stream series. 
+                        </p>
                     </div>
-                    <div class="col-sm-12 col-md-4 my-col my-flex ">
-                        {/* <img src={aboutImage}/> */}
-                        <div  >
-                        <ul className="my-skills">
-                            <li> React</li>
-                            <li>Javascript</li>
-                            <li>HTML 5</li>
-                            <li>CSS 3 </li>
-                            <li>Firebase</li>
-                            <li>Git</li>
-                            <li>English</li>
-                            <li>softskills</li>
-                        </ul>
-                        </div>
-                         <div>
-                        <ul className="my-skills">
-                            <li> React</li>
-                            <li>Javascript</li>
-                            <li>HTML 5</li>
-                            <li>CSS 3 </li>
-                            <li>Firebase</li>
-                            <li>Git</li>
-                            <li>English</li>
-                            <li>softskills</li>
-                        </ul>
-                        </div>
+                    <div className="col-sm-12 col-md-4 my-col">  
+                        <img src={aboutImage}/> 
+                    </div>
+                    <div class="col-sm-12 col-md-3 my-col my-flex ">
+                    
+                            <div  >
+                            <ul className="my-skills">
+                               
+                                <li>CSS 3 </li>
+                                <li>Firebase</li>
+                                <li>Git</li>
+                                <li>English</li>
+                                <li>softskills</li>
+                            </ul>
+                            </div>
+                            <div>
+                            <ul className="my-skills">
+                                <li> React</li>
+                                <li>Javascript</li>
+                                <li>HTML 5</li>
+                                <li>CSS 3 </li>
+                                <li>Firebase</li>
+                              
+                            </ul>
+                            </div>
                     </div>
                 </div>
 
